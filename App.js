@@ -9,6 +9,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>{outputText}</Text>
+      <Text>{outputText}</Text>
       <Text>This mobile app has no purpose</Text>
       <Text>here is some more text on the home screen</Text>
       <Button title="Change Text" onPress={() => setOutputText('The text changed')} />
